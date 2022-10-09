@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n" />
+		</Console>
+
+		<RollingFile fileName="logs/Info.log" filePattern="reports/log/Info-%d{yyyy-MM-dd}.log" name="fileLogger">
+			<!-- Except Error -->
+			<PatternLayout>
+				<pattern>%d{yyy-MM-dd HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+        </pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" modulate="true" />
+			</Policies>
+			<ThresholdFilter level="error" onMatch="DENY" onMismatch="ACCEPT" />
+		</RollingFile>
+		<RollingFile fileName="logs/Error.log" filePattern="reports/log/Error-%d{yyyy-MM-dd}.log" name="errorLogger">
+			<PatternLayout>
+				<pattern>%d{yyy-MM-dd HH:mm:ss.SSS} %-5level %logger{36} - %msg%n
+        </pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" modulate="true" />
+			</Policies>
+		</RollingFile>
+	</Appenders>
+	<Loggers>
+		<Root level="INFO">
+			<AppenderRef level="TRACE" ref="Console" />
+			<AppenderRef level="TRACE" ref="fileLogger" />
+			<AppenderRef level="ERROR" ref="errorLogger" />
+		</Root>
+		<Logger name="org.testng.internal.Utils" level="debug" additivity="false"></Logger>
+		<Logger name="org.asynchttpclient.netty.handler.WebSocketHandler" level="debug" additivity="false"></Logger>
+
+	</Loggers>
+
+	<Properties></Properties>
+</Configuration>

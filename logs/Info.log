@@ -1,0 +1,364 @@
+2022-10-09 21:22:40.685 INFO  com.frameworks.selenium.utils.ReportUtil - Archiving old reports
+2022-10-09 21:22:40.692 INFO  com.frameworks.selenium.utils.ReportUtil - Archive generated at : D:\frameworks\selenium-maven-java-framework\Archive_test_results\2022-10-09_21_22_40.zip
+2022-10-09 21:22:40.692 INFO  com.frameworks.selenium.utils.ReportUtil - Deleting folder: D:\frameworks\selenium-maven-java-framework\current_test_results
+2022-10-09 21:22:40.695 INFO  com.frameworks.selenium.utils.ReportUtil - Deleting folder: D:\frameworks\selenium-maven-java-framework\test-output
+2022-10-09 21:22:40.711 INFO  com.frameworks.selenium.reporting.ExtentReport - Creting Extent Report instance
+2022-10-09 21:22:40.926 INFO  com.frameworks.selenium.core.WebDriverHandler - Initializing the Driver for browser 'CHROME'
+2022-10-09 21:22:41.188 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-09 21:22:41.204 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\rohitpratap\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-09 21:22:42.547 INFO  com.frameworks.selenium.base.TestBase - Navigatting to the base url 'https://www.amazon.in/'
+2022-10-09 21:22:44.053 INFO  com.frameworks.selenium.base.TestBase - Maximizing the browser
+2022-10-09 21:22:44.244 INFO  com.frameworks.selenium.reporting.ReportListner - Creating test in the extent report
+2022-10-09 21:22:44.254 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to click at 'Nav Bar Mobile Button on 'HomePage'
+2022-10-09 21:22:44.256 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Nav Bar Mobile Button' by 'Xpath' using '//div[@id='nav-xshop']/a[@data-csa-c-content-id='nav_cs_mobiles']'
+2022-10-09 21:22:48.615 INFO  com.frameworks.selenium.core.SeleniumWrapper - Clicked at'Nav Bar Mobile Button'on 'HomePage'
+2022-10-09 21:22:48.666 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to get title of the page'
+2022-10-09 21:22:48.670 INFO  com.frameworks.selenium.core.SeleniumWrapper - Title of the page is 'Mobile Phones: Buy New Mobiles Online at Best Prices in India | Buy Cell Phones Online - Amazon.in'
+2022-10-09 21:22:48.673 INFO  com.frameworks.selenium.reporting.ReportListner - Closing the test in extent report
+2022-10-09 21:22:49.455 INFO  com.frameworks.selenium.core.WebDriverHandler - Initializing the Driver for browser 'CHROME'
+2022-10-09 21:22:49.468 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-09 21:22:49.478 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\rohitpratap\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-09 21:22:50.285 INFO  com.frameworks.selenium.base.TestBase - Navigatting to the base url 'https://www.amazon.in/'
+2022-10-09 21:22:51.864 INFO  com.frameworks.selenium.base.TestBase - Maximizing the browser
+2022-10-09 21:22:52.024 INFO  com.frameworks.selenium.reporting.ReportListner - Creating test in the extent report
+2022-10-09 21:22:52.027 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to type 'oneplus 10 pro' at 'Search bar on 'HomePage'
+2022-10-09 21:22:52.027 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Search bar' by 'ID' using 'twotabsearchtextbox'
+2022-10-09 21:22:52.260 INFO  com.frameworks.selenium.core.SeleniumWrapper - Typed 'oneplus 10 pro' at 'Search bar'on 'HomePage'
+2022-10-09 21:22:52.261 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to click at 'Search Button on 'HomePage'
+2022-10-09 21:22:52.261 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Search Button' by 'ID' using 'nav-search-submit-button'
+2022-10-09 21:22:54.175 INFO  com.frameworks.selenium.core.SeleniumWrapper - Clicked at'Search Button'on 'HomePage'
+2022-10-09 21:22:54.176 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to get 'Search Page Add Label' on 'SearchPage'
+2022-10-09 21:22:54.176 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Search Page Add Label' by 'Xpath' using '//a[contains(@aria-label,'Sponsored ad from')]/parent::div//a[@data-elementid='sbx-headline']//span[text()][1]'
+2022-10-09 21:22:54.267 INFO  com.frameworks.selenium.reporting.ReportListner - Closing the test in extent report
+2022-10-09 21:22:54.917 INFO  com.frameworks.selenium.core.WebDriverHandler - Initializing the Driver for browser 'CHROME'
+2022-10-09 21:22:54.938 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-09 21:22:54.952 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\rohitpratap\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-09 21:22:55.734 INFO  com.frameworks.selenium.base.TestBase - Navigatting to the base url 'https://www.amazon.in/'
+2022-10-09 21:22:57.266 INFO  com.frameworks.selenium.base.TestBase - Maximizing the browser
+2022-10-09 21:22:57.445 INFO  com.frameworks.selenium.reporting.ReportListner - Creating test in the extent report
+2022-10-09 21:22:57.447 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to type 'iphone 13' at 'Search bar on 'HomePage'
+2022-10-09 21:22:57.448 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Search bar' by 'ID' using 'twotabsearchtextbox'
+2022-10-09 21:22:57.625 INFO  com.frameworks.selenium.core.SeleniumWrapper - Typed 'iphone 13' at 'Search bar'on 'HomePage'
+2022-10-09 21:22:57.626 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to click at 'Search Button on 'HomePage'
+2022-10-09 21:22:57.626 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Search Button' by 'ID' using 'nav-search-submit-button'
+2022-10-09 21:22:59.129 INFO  com.frameworks.selenium.core.SeleniumWrapper - Clicked at'Search Button'on 'HomePage'
+2022-10-09 21:22:59.130 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to get 'Search Page Add Label' on 'SearchPage'
+2022-10-09 21:22:59.130 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Search Page Add Label' by 'Xpath' using '//a[contains(@aria-label,'Sponsored ad from')]/parent::div//a[@data-elementid='sbx-headline']//span[text()][1]'
+2022-10-09 21:22:59.192 INFO  com.frameworks.selenium.reporting.ReportListner - Closing the test in extent report
+2022-10-09 21:22:59.743 INFO  com.frameworks.selenium.core.WebDriverHandler - Initializing the Driver for browser 'CHROME'
+2022-10-09 21:22:59.755 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-09 21:22:59.766 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\rohitpratap\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-09 21:23:00.404 INFO  com.frameworks.selenium.base.TestBase - Navigatting to the base url 'https://www.amazon.in/'
+2022-10-09 21:23:01.964 INFO  com.frameworks.selenium.base.TestBase - Maximizing the browser
+2022-10-09 21:23:02.124 INFO  com.frameworks.selenium.reporting.ReportListner - Creating test in the extent report
+2022-10-09 21:23:02.129 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to type 'oneplus 10 pro' at 'Search bar on 'HomePage'
+2022-10-09 21:23:02.130 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Search bar' by 'ID' using 'twotabsearchtextbox'
+2022-10-09 21:23:02.318 INFO  com.frameworks.selenium.core.SeleniumWrapper - Typed 'oneplus 10 pro' at 'Search bar'on 'HomePage'
+2022-10-09 21:23:02.319 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to click at 'Search Button on 'HomePage'
+2022-10-09 21:23:02.319 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Search Button' by 'ID' using 'nav-search-submit-button'
+2022-10-09 21:23:04.249 INFO  com.frameworks.selenium.core.SeleniumWrapper - Clicked at'Search Button'on 'HomePage'
+2022-10-09 21:23:04.249 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to get 'Search Page First Result' on 'SearchPage'
+2022-10-09 21:23:04.249 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Search Page First Result' by 'Xpath' using '//div[@class='s-main-slot s-result-list s-search-results sg-row']//div[3]//h2//span'
+2022-10-09 21:23:04.381 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to click at 'Search Page First Result on 'SearchPage'
+2022-10-09 21:23:04.381 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Search Page First Result' by 'Xpath' using '//div[@class='s-main-slot s-result-list s-search-results sg-row']//div[3]//h2//span'
+2022-10-09 21:23:04.519 INFO  com.frameworks.selenium.core.SeleniumWrapper - Clicked at'Search Page First Result'on 'SearchPage'
+2022-10-09 21:23:04.533 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to Switch window to handle 'CDwindow-BC422FC564BB3B9FE64111D7A15EFE6B'
+2022-10-09 21:23:04.537 INFO  com.frameworks.selenium.core.SeleniumWrapper - Switched to 'CDwindow-BC422FC564BB3B9FE64111D7A15EFE6B'
+2022-10-09 21:23:04.537 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to see if element 'Regular Price button' is present on the page'ProductPage'
+2022-10-09 21:23:04.538 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Regular Price button' by 'Xpath' using '//span[text()=' Regular Price ']//parent::div//parent::div//parent::h5//parent::a//i'
+2022-10-09 21:23:39.966 INFO  com.frameworks.selenium.core.SeleniumWrapper - Element not found'Regular Price button' By 'Xpath' Using '//span[text()=' Regular Price ']//parent::div//parent::div//parent::h5//parent::a//i'
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //span[text()=' Regular Price ']//parent::div//parent::div//parent::h5//parent::a//i (tried for 2 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87) ~[selenium-support-4.1.4.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231) ~[selenium-support-4.1.4.jar:?]
+	at com.frameworks.selenium.core.SeleniumWrapper.getElement(SeleniumWrapper.java:42) [classes/:?]
+	at com.frameworks.selenium.core.SeleniumWrapper.checkIfelementIsPresent(SeleniumWrapper.java:145) [classes/:?]
+	at com.frameworks.selenium.pages.ProductPage.additemToCart(ProductPage.java:39) [test-classes/:?]
+	at com.frameworks.selenium.tests.CartPageTests.addItemToCart(CartPageTests.java:27) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.6.0.jar:7.6.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()=' Regular Price ']//parent::div//parent::div//parent::h5//parent::a//i"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'IN-GLRY9K3', ip: '192.168.29.57', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5af56e05207aea753e14d079c1e7408b, findElement {using=xpath, value=//span[text()=' Regular Price ']//parent::div//parent::div//parent::h5//parent::a//i}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ROHITP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57393}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57393/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5af56e05207aea753e14d079c1e7408b
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:174) ~[selenium-support-4.1.4.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171) ~[selenium-support-4.1.4.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208) ~[selenium-support-4.1.4.jar:?]
+	... 19 more
+2022-10-09 21:23:39.972 INFO  com.frameworks.selenium.core.SeleniumWrapper - 'Regular Price button' is not present on the page'ProductPage'
+2022-10-09 21:23:39.972 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to click at 'Add to cart button on 'ProductPage'
+2022-10-09 21:23:39.972 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Add to cart button' by 'Xpath' using '//input[@value='Add to Cart']'
+2022-10-09 21:23:40.155 INFO  com.frameworks.selenium.core.SeleniumWrapper - Clicked at'Add to cart button'on 'ProductPage'
+2022-10-09 21:23:40.155 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to see if element 'Added to cart popup close button' is present on the page'ProductPage'
+2022-10-09 21:23:40.155 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Added to cart popup close button' by 'Xpath' using '//a[@aria-label='Exit this panel and return to the product page. ']'
+2022-10-09 21:23:41.364 INFO  com.frameworks.selenium.core.SeleniumWrapper - 'Added to cart popup close button' is present on the page'ProductPage'
+2022-10-09 21:23:41.364 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to click at 'Added to cart popup close button on 'ProductPage'
+2022-10-09 21:23:41.365 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Added to cart popup close button' by 'Xpath' using '//a[@aria-label='Exit this panel and return to the product page. ']'
+2022-10-09 21:23:41.796 INFO  com.frameworks.selenium.core.SeleniumWrapper - Clicked at'Added to cart popup close button'on 'ProductPage'
+2022-10-09 21:23:46.812 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to click at 'Cart Page Button on 'CartPage'
+2022-10-09 21:23:46.812 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Cart Page Button' by 'ID' using 'nav-cart'
+2022-10-09 21:23:49.141 INFO  com.frameworks.selenium.core.SeleniumWrapper - Clicked at'Cart Page Button'on 'CartPage'
+2022-10-09 21:23:49.142 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to get 'Product title' on 'CartPage'
+2022-10-09 21:23:49.143 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Product title' by 'Xpath' using '//div[@id='sc-active-cart']//li[1]//span[@class='a-truncate-full a-offscreen']'
+2022-10-09 21:23:49.309 INFO  com.frameworks.selenium.reporting.ReportListner - Closing the test in extent report
+2022-10-09 21:23:49.828 INFO  com.frameworks.selenium.core.WebDriverHandler - Initializing the Driver for browser 'CHROME'
+2022-10-09 21:23:49.838 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-09 21:23:49.846 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\rohitpratap\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-09 21:23:50.701 INFO  com.frameworks.selenium.base.TestBase - Navigatting to the base url 'https://www.amazon.in/'
+2022-10-09 21:23:52.754 INFO  com.frameworks.selenium.base.TestBase - Maximizing the browser
+2022-10-09 21:23:52.931 INFO  com.frameworks.selenium.reporting.ReportListner - Creating test in the extent report
+2022-10-09 21:23:52.934 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to click at 'Nav Bar Mobile Button on 'HomePage'
+2022-10-09 21:23:52.934 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Nav Bar Mobile Button' by 'Xpath' using '//div[@id='nav-xshop']/a[@data-csa-c-content-id='nav_cs_mobiles']'
+2022-10-09 21:23:57.501 INFO  com.frameworks.selenium.core.SeleniumWrapper - Clicked at'Nav Bar Mobile Button'on 'HomePage'
+2022-10-09 21:23:57.531 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to click at 'Made for amazon button on 'FilterPage'
+2022-10-09 21:23:57.532 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Made for amazon button' by 'Xpath' using '//span[text()='Made for Amazon']//parent::a//i'
+2022-10-09 21:23:59.224 INFO  com.frameworks.selenium.core.SeleniumWrapper - Clicked at'Made for amazon button'on 'FilterPage'
+2022-10-09 21:23:59.224 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to type '2000.0' at 'Min Range Input Box on 'FilterPage'
+2022-10-09 21:23:59.224 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Min Range Input Box' by 'Name' using 'high-price'
+2022-10-09 21:23:59.322 INFO  com.frameworks.selenium.core.SeleniumWrapper - Typed '2000.0' at 'Min Range Input Box'on 'FilterPage'
+2022-10-09 21:23:59.322 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to type '1000.0' at 'Min Range Input Box on 'FilterPage'
+2022-10-09 21:23:59.323 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Min Range Input Box' by 'Name' using 'low-price'
+2022-10-09 21:23:59.465 INFO  com.frameworks.selenium.core.SeleniumWrapper - Typed '1000.0' at 'Min Range Input Box'on 'FilterPage'
+2022-10-09 21:23:59.465 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to click at 'Price range submit button on 'FilterPage'
+2022-10-09 21:23:59.465 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Price range submit button' by 'Xpath' using '//input[@name='high-price']//parent::form//input[@type='submit']'
+2022-10-09 21:24:01.135 INFO  com.frameworks.selenium.core.SeleniumWrapper - Clicked at'Price range submit button'on 'FilterPage'
+2022-10-09 21:24:01.136 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to get 'Search Page First Result' on 'SearchPage'
+2022-10-09 21:24:01.136 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Search Page First Result' by 'Xpath' using '//div[@class='s-main-slot s-result-list s-search-results sg-row']//div[3]//h2//span'
+2022-10-09 21:24:01.181 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to click at 'Search Page First Result on 'SearchPage'
+2022-10-09 21:24:01.181 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Search Page First Result' by 'Xpath' using '//div[@class='s-main-slot s-result-list s-search-results sg-row']//div[3]//h2//span'
+2022-10-09 21:24:01.288 INFO  com.frameworks.selenium.core.SeleniumWrapper - Clicked at'Search Page First Result'on 'SearchPage'
+2022-10-09 21:24:01.299 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to Switch window to handle 'CDwindow-DE4BAD1F2A8BE3260202E31F5027C004'
+2022-10-09 21:24:01.302 INFO  com.frameworks.selenium.core.SeleniumWrapper - Switched to 'CDwindow-DE4BAD1F2A8BE3260202E31F5027C004'
+2022-10-09 21:24:01.302 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to see if element 'Deal Price Label' is present on the page'ProductPage'
+2022-10-09 21:24:01.302 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Deal Price Label' by 'Xpath' using '//span[@class='a-price a-text-price a-size-medium apexPriceToPay']//span[@class='a-offscreen']'
+2022-10-09 21:24:34.638 INFO  com.frameworks.selenium.core.SeleniumWrapper - Element not found'Deal Price Label' By 'Xpath' Using '//span[@class='a-price a-text-price a-size-medium apexPriceToPay']//span[@class='a-offscreen']'
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //span[@class='a-price a-text-price a-size-medium apexPriceToPay']//span[@class='a-offscreen'] (tried for 2 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87) ~[selenium-support-4.1.4.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231) ~[selenium-support-4.1.4.jar:?]
+	at com.frameworks.selenium.core.SeleniumWrapper.getElement(SeleniumWrapper.java:42) [classes/:?]
+	at com.frameworks.selenium.core.SeleniumWrapper.checkIfelementIsPresent(SeleniumWrapper.java:145) [classes/:?]
+	at com.frameworks.selenium.pages.ProductPage.checkProductPriceRange(ProductPage.java:52) [test-classes/:?]
+	at com.frameworks.selenium.tests.FilterPageTests.priceRangeFilterTestOnMobile(FilterPageTests.java:28) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.6.0.jar:7.6.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='a-price a-text-price a-size-medium apexPriceToPay']//span[@class='a-offscreen']"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'IN-GLRY9K3', ip: '192.168.29.57', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [29f58200f7b958220e29c0f5682ffe43, findElement {using=xpath, value=//span[@class='a-price a-text-price a-size-medium apexPriceToPay']//span[@class='a-offscreen']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ROHITP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57541/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 29f58200f7b958220e29c0f5682ffe43
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:174) ~[selenium-support-4.1.4.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171) ~[selenium-support-4.1.4.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208) ~[selenium-support-4.1.4.jar:?]
+	... 19 more
+2022-10-09 21:24:34.638 INFO  com.frameworks.selenium.core.SeleniumWrapper - 'Deal Price Label' is not present on the page'ProductPage'
+2022-10-09 21:24:34.653 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to get 'Item Price Label' on 'ProductPage'
+2022-10-09 21:24:34.653 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Item Price Label' by 'Xpath' using '//span[@class='a-price aok-align-center reinventPricePriceToPayMargin priceToPay']//span[@class='a-price-whole']'
+2022-10-09 21:24:34.689 INFO  com.frameworks.selenium.reporting.ReportListner - Closing the test in extent report
+2022-10-09 21:24:35.159 INFO  com.frameworks.selenium.core.WebDriverHandler - Initializing the Driver for browser 'CHROME'
+2022-10-09 21:24:35.174 INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-09 21:24:35.190 INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\rohitpratap\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-09 21:24:36.098 INFO  com.frameworks.selenium.base.TestBase - Navigatting to the base url 'https://www.amazon.in/'
+2022-10-09 21:24:39.044 INFO  com.frameworks.selenium.base.TestBase - Maximizing the browser
+2022-10-09 21:24:39.189 INFO  com.frameworks.selenium.reporting.ReportListner - Creating test in the extent report
+2022-10-09 21:24:39.191 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to click at 'Nav Bar Mobile Button on 'HomePage'
+2022-10-09 21:24:39.191 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Nav Bar Mobile Button' by 'Xpath' using '//div[@id='nav-xshop']/a[@data-csa-c-content-id='nav_cs_mobiles']'
+2022-10-09 21:24:44.472 INFO  com.frameworks.selenium.core.SeleniumWrapper - Clicked at'Nav Bar Mobile Button'on 'HomePage'
+2022-10-09 21:24:44.511 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to click at 'Made for amazon button on 'FilterPage'
+2022-10-09 21:24:44.511 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Made for amazon button' by 'Xpath' using '//span[text()='Made for Amazon']//parent::a//i'
+2022-10-09 21:24:45.966 INFO  com.frameworks.selenium.core.SeleniumWrapper - Clicked at'Made for amazon button'on 'FilterPage'
+2022-10-09 21:24:45.967 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to type '30000.0' at 'Min Range Input Box on 'FilterPage'
+2022-10-09 21:24:45.967 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Min Range Input Box' by 'Name' using 'high-price'
+2022-10-09 21:24:46.080 INFO  com.frameworks.selenium.core.SeleniumWrapper - Typed '30000.0' at 'Min Range Input Box'on 'FilterPage'
+2022-10-09 21:24:46.080 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to type '2000.0' at 'Min Range Input Box on 'FilterPage'
+2022-10-09 21:24:46.080 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Min Range Input Box' by 'Name' using 'low-price'
+2022-10-09 21:24:46.188 INFO  com.frameworks.selenium.core.SeleniumWrapper - Typed '2000.0' at 'Min Range Input Box'on 'FilterPage'
+2022-10-09 21:24:46.189 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to click at 'Price range submit button on 'FilterPage'
+2022-10-09 21:24:46.189 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Price range submit button' by 'Xpath' using '//input[@name='high-price']//parent::form//input[@type='submit']'
+2022-10-09 21:24:47.686 INFO  com.frameworks.selenium.core.SeleniumWrapper - Clicked at'Price range submit button'on 'FilterPage'
+2022-10-09 21:24:47.687 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to get 'Search Page First Result' on 'SearchPage'
+2022-10-09 21:24:47.687 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Search Page First Result' by 'Xpath' using '//div[@class='s-main-slot s-result-list s-search-results sg-row']//div[3]//h2//span'
+2022-10-09 21:24:47.754 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to click at 'Search Page First Result on 'SearchPage'
+2022-10-09 21:24:47.754 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Search Page First Result' by 'Xpath' using '//div[@class='s-main-slot s-result-list s-search-results sg-row']//div[3]//h2//span'
+2022-10-09 21:24:47.899 INFO  com.frameworks.selenium.core.SeleniumWrapper - Clicked at'Search Page First Result'on 'SearchPage'
+2022-10-09 21:24:47.911 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to Switch window to handle 'CDwindow-980770285AAFBB0B60EF4FB2C64CE085'
+2022-10-09 21:24:47.914 INFO  com.frameworks.selenium.core.SeleniumWrapper - Switched to 'CDwindow-980770285AAFBB0B60EF4FB2C64CE085'
+2022-10-09 21:24:47.915 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to see if element 'Deal Price Label' is present on the page'ProductPage'
+2022-10-09 21:24:47.915 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Deal Price Label' by 'Xpath' using '//span[@class='a-price a-text-price a-size-medium apexPriceToPay']//span[@class='a-offscreen']'
+2022-10-09 21:25:22.071 INFO  com.frameworks.selenium.core.SeleniumWrapper - Element not found'Deal Price Label' By 'Xpath' Using '//span[@class='a-price a-text-price a-size-medium apexPriceToPay']//span[@class='a-offscreen']'
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //span[@class='a-price a-text-price a-size-medium apexPriceToPay']//span[@class='a-offscreen'] (tried for 2 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87) ~[selenium-support-4.1.4.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231) ~[selenium-support-4.1.4.jar:?]
+	at com.frameworks.selenium.core.SeleniumWrapper.getElement(SeleniumWrapper.java:42) [classes/:?]
+	at com.frameworks.selenium.core.SeleniumWrapper.checkIfelementIsPresent(SeleniumWrapper.java:145) [classes/:?]
+	at com.frameworks.selenium.pages.ProductPage.checkProductPriceRange(ProductPage.java:52) [test-classes/:?]
+	at com.frameworks.selenium.tests.FilterPageTests.priceRangeFilterTestOnMobile(FilterPageTests.java:28) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.6.0.jar:7.6.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='a-price a-text-price a-size-medium apexPriceToPay']//span[@class='a-offscreen']"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'IN-GLRY9K3', ip: '192.168.29.57', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [43720e75cde2bef0455bfc210a67defd, findElement {using=xpath, value=//span[@class='a-price a-text-price a-size-medium apexPriceToPay']//span[@class='a-offscreen']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ROHITP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57647/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43720e75cde2bef0455bfc210a67defd
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:174) ~[selenium-support-4.1.4.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171) ~[selenium-support-4.1.4.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208) ~[selenium-support-4.1.4.jar:?]
+	... 19 more
+2022-10-09 21:25:22.088 INFO  com.frameworks.selenium.core.SeleniumWrapper - 'Deal Price Label' is not present on the page'ProductPage'
+2022-10-09 21:25:22.088 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to get 'Item Price Label' on 'ProductPage'
+2022-10-09 21:25:22.088 INFO  com.frameworks.selenium.core.SeleniumWrapper - Trying to find the element 'Item Price Label' by 'Xpath' using '//span[@class='a-price aok-align-center reinventPricePriceToPayMargin priceToPay']//span[@class='a-price-whole']'
+2022-10-09 21:25:52.105 INFO  com.frameworks.selenium.core.SeleniumWrapper - Element not found'Item Price Label' By 'Xpath' Using '//span[@class='a-price aok-align-center reinventPricePriceToPayMargin priceToPay']//span[@class='a-price-whole']'
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //span[@class='a-price aok-align-center reinventPricePriceToPayMargin priceToPay']//span[@class='a-price-whole'] (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87) ~[selenium-support-4.1.4.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231) ~[selenium-support-4.1.4.jar:?]
+	at com.frameworks.selenium.core.SeleniumWrapper.getElement(SeleniumWrapper.java:42) [classes/:?]
+	at com.frameworks.selenium.core.SeleniumWrapper.getElement(SeleniumWrapper.java:32) [classes/:?]
+	at com.frameworks.selenium.core.SeleniumWrapper.getTextofElement(SeleniumWrapper.java:61) [classes/:?]
+	at com.frameworks.selenium.pages.ProductPage.checkProductPriceRange(ProductPage.java:55) [test-classes/:?]
+	at com.frameworks.selenium.tests.FilterPageTests.priceRangeFilterTestOnMobile(FilterPageTests.java:28) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148) [testng-7.6.0.jar:7.6.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) [testng-7.6.0.jar:7.6.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='a-price aok-align-center reinventPricePriceToPayMargin priceToPay']//span[@class='a-price-whole']"}
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'IN-GLRY9K3', ip: '192.168.29.57', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [43720e75cde2bef0455bfc210a67defd, findElement {using=xpath, value=//span[@class='a-price aok-align-center reinventPricePriceToPayMargin priceToPay']//span[@class='a-price-whole']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\ROHITP~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57647}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57647/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43720e75cde2bef0455bfc210a67defd
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[?:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377) ~[selenium-remote-driver-4.1.4.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:174) ~[selenium-support-4.1.4.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171) ~[selenium-support-4.1.4.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208) ~[selenium-support-4.1.4.jar:?]
+	... 20 more
+2022-10-09 21:25:52.121 INFO  com.frameworks.selenium.reporting.ReportListner - Closing the test in extent report
+2022-10-09 21:25:52.879 INFO  com.frameworks.selenium.reporting.ReportListner - Creating the extent report ....
+2022-10-09 21:25:52.879 INFO  com.frameworks.selenium.reporting.ExtentReport - Trying to create the extent report.
+2022-10-09 21:25:53.222 INFO  com.frameworks.selenium.reporting.ExtentReport - Extent report cretated at reports
