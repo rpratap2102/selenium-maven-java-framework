@@ -185,10 +185,6 @@ Folder Structure
  ┣ 📜pom.xml							- Maven pom.xml to add dependencies and plugins.
  ┣ 📜README.md							- ReadMe file for the project
  ┣ 📜testng.xml							- Default testng file
- ┣ 📜testng_CartPage.xml				- Testng file for cart page with 2 parallel thread count on methods
- ┣ 📜testng_FilterPage.xml				- Testng file for filter page with 2 parallel thread count on methods
- ┣ 📜testng_HomePage.xml				- Testng file for home page with 2 parallel thread count on methods
  ┣ 📜testng_parallel_all.xml			- Testng file for all pages with 2 parallel thread count on classes
- ┣ 📜testng_SearchPage.xml				- Testng file for search page with 2 parallel thread count on methods
  ┣ 📜testng_smoke.xml					- Testng file for all test with group name Smoke.
 ```
